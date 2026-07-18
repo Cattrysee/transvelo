@@ -1,0 +1,25 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+venv/
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+
+# ---------- Data & model artifacts (large / generated, not tracked) ----------
+*.h5ad
+*.pt
+*.ckpt
+*.pth
+data/raw/
+results/
+saved/
+transvelo_*.h5ad
+transvelo_*.pt
+
+# ---------- System ----------
+.DS_Store
+Thumbs.db

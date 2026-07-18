@@ -1,0 +1,8 @@
+# TransVelo dependencies
+# 建议在独立环境中安装：python -m venv venv && source venv/bin/activate && pip install -r requirements.txt
+
+torch>=2.0
+numpy>=1.23
+scipy>=1.9
+scanpy>=1.9
+scvelo>=0.3
